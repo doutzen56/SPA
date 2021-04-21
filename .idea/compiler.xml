@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-platform-servie" />
+        <module name="mall-service-dependencies" />
+        <module name="mall-common" />
+        <module name="mall-platform-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mall-api" target="11" />
+      <module name="mall-common" target="11" />
+      <module name="mall-gateway" target="11" />
+      <module name="mall-platform-api" target="11" />
+      <module name="mall-platform-servie" target="11" />
+      <module name="mall-service" target="11" />
+      <module name="mall-service-dependencies" target="11" />
+      <module name="mall-service-dependency" target="11" />
+      <module name="mall-util" target="11" />
+      <module name="mall-web" target="11" />
+      <module name="spa-mall" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mall-api" options="-parameters" />
+      <module name="mall-common" options="-parameters" />
+      <module name="mall-gateway" options="-parameters" />
+      <module name="mall-platform-api" options="-parameters" />
+      <module name="mall-platform-servie" options="-parameters" />
+      <module name="mall-service" options="-parameters" />
+      <module name="mall-service-dependencies" options="-parameters" />
+      <module name="mall-service-dependency" options="-parameters" />
+      <module name="mall-util" options="-parameters" />
+      <module name="mall-web" options="-parameters" />
+    </option>
+  </component>
+</project>

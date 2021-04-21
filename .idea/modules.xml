@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SPA.iml" filepath="$PROJECT_DIR$/.idea/SPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spa-mall/mall-api/mall-api.iml" filepath="$PROJECT_DIR$/spa-mall/mall-api/mall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spa-mall/mall-util/mall-common/mall-common.iml" filepath="$PROJECT_DIR$/spa-mall/mall-util/mall-common/mall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spa-mall/mall-gateway/mall-gateway.iml" filepath="$PROJECT_DIR$/spa-mall/mall-gateway/mall-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spa-mall/mall-api/mall-platform-api/mall-platform-api.iml" filepath="$PROJECT_DIR$/spa-mall/mall-api/mall-platform-api/mall-platform-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spa-mall/mall-service/mall-platform-servie/mall-platform-servie.iml" filepath="$PROJECT_DIR$/spa-mall/mall-service/mall-platform-servie/mall-platform-servie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spa-mall/mall-service/mall-service.iml" filepath="$PROJECT_DIR$/spa-mall/mall-service/mall-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spa-mall/mall-util/mall-service-dependencies/mall-service-dependencies.iml" filepath="$PROJECT_DIR$/spa-mall/mall-util/mall-service-dependencies/mall-service-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spa-mall/mall-util/mall-util.iml" filepath="$PROJECT_DIR$/spa-mall/mall-util/mall-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spa-mall/mall-web/mall-web.iml" filepath="$PROJECT_DIR$/spa-mall/mall-web/mall-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spa-mall/spa-mall.iml" filepath="$PROJECT_DIR$/spa-mall/spa-mall.iml" />
+    </modules>
+  </component>
+</project>
