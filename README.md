@@ -1,2 +1,2 @@
-# sca-mall
+# spa-mall
 Spring Cloud Alibaba 商城
