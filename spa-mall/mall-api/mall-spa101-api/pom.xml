@@ -3,16 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spa-mall</artifactId>
+        <artifactId>mall-api</artifactId>
         <groupId>com.spa</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mall-gateway</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>mall-spa101-api</artifactId>
     <description>
-        管理所有微服务网管
+        platform对应的api工程
     </description>
 
 </project>

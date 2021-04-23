@@ -1,4 +1,4 @@
-package com.spa.mall.spa101;
+package com.spa.mall.spa101.gameType.model;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -16,8 +16,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @TableName(value = "platform")
-public class Paltform {
-    @TableId(type = IdType.AUTO,value = "id")
+public class GameType {
+    @TableId(type = IdType.AUTO, value = "id")
     private Integer id;
     private String name;
     private String image;

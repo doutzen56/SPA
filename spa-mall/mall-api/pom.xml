@@ -10,16 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>mall-platform-api</module>
+        <module>mall-spa101-api</module>
     </modules>
     <artifactId>mall-api</artifactId>
     <description>
         所有数据库表对应的Bean和Feign接口
     </description>
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
     <dependencies>
         <!--Mybatis Plus-->
         <dependency>

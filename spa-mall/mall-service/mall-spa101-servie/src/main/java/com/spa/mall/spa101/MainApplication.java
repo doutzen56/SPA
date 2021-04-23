@@ -1,4 +1,4 @@
-package com.spa.mall;
+package com.spa.mall.spa101;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

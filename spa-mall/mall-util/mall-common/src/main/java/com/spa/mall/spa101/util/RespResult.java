@@ -1,4 +1,4 @@
-package com.spa.mall.util;
+package com.spa.mall.spa101.util;
 
 import java.io.Serializable;
 
