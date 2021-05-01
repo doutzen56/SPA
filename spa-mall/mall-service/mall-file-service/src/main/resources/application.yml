@@ -1,0 +1,24 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: mall-file
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spa101?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+  servlet:
+    multipart:
+      enabled: true
+      #最大文件大小
+      max-file-size: 50MB
+      #最大请求大小
+      max-request-size: 50MB
+      #文件写入磁盘的阈值
+      file-size-threshold: 2KB
+#===========自定义配置=========
+#上传文件存储路径
+file:
+  upload-path: ./uploads
+

@@ -1,10 +1,13 @@
 package com.spa.mall.spa101.controller;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.spa.mall.spa101.gameType.model.GameType;
 import com.spa.mall.spa101.service.GameTypeService;
-import com.spa.mall.spa101.util.RespResult;
+import com.spa.mall.util.RespResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * @Author: doutzen@163.com
@@ -41,5 +44,26 @@ public class GameTypeController {
     public RespResult update(@PathVariable(value = "id") String id){
         gameTypeService.removeById(id);
         return RespResult.ok();
+    }
+
+    /**
+     * 条件查询
+     * */
+    @PostMapping("/search")
+    public RespResult<List<GameType>> queryList(@RequestBody GameType gameType){
+       List<GameType> result= gameTypeService.queryList(gameType);
+        return RespResult.ok(result);
+    }
+
+    /**
+     * 分页查询
+     * */
+    @PostMapping("/search/{page}/{size}")
+    public RespResult<Page<GameType>> queryList(
+            @RequestBody GameType gameType,
+            @PathVariable(value = "page")Long page,
+            @PathVariable(value ="size")Long size){
+        Page<GameType> result= gameTypeService.queryListPage(gameType,page,size);
+        return RespResult.ok(result);
     }
 }

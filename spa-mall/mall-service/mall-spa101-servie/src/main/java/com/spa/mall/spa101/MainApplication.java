@@ -10,7 +10,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Description:Spring Cloud Alibaba 商城
  */
 @SpringBootApplication
-@MapperScan(basePackages = {"com.spa.mall.mapper"})
+//配置dao文件扫描路径,作用等价于@mapper
+//@MapperScan(basePackages = {"com.spa.mall.spa101.dao"})
 public class MainApplication {
     public static void main(String[] args) {
         SpringApplication.run(MainApplication.class, args);

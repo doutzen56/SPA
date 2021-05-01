@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@TableName(value = "platform")
+@TableName(value = "gameType")
 public class GameType {
     @TableId(type = IdType.AUTO, value = "id")
     private Integer id;

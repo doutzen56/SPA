@@ -16,6 +16,7 @@
     </description>
     <modules>
         <module>mall-spa101-servie</module>
+        <module>mall-file-service</module>
     </modules>
     <dependencies>
         <!--工具包依赖-->
