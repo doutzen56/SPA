@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 //配置dao文件扫描路径,作用等价于@mapper
-//@MapperScan(basePackages = {"com.spa.mall.spa101.dao"})
+@MapperScan(basePackages = {"com.spa.mall.spa101.dao"})
 public class MainApplication {
     public static void main(String[] args) {
         SpringApplication.run(MainApplication.class, args);

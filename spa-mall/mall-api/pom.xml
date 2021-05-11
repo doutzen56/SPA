@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>mall-spa101-api</module>
+        <module>mall-search-api</module>
     </modules>
     <artifactId>mall-api</artifactId>
     <description>
